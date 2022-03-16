@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   display: flex;
 }
@@ -27,3 +28,35 @@ a {
   color: blue;
   background-color: white;
 }
+=======
+
+header {
+    display: flex;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+  
+  div {
+    background-color: blanchedalmond;
+  }
+  li {
+    display: flex;
+    color: beige;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  p {
+    color: blanchedalmond;
+  }
+  
+  a {
+    color: blue;
+    background-color: white;
+  }
+>>>>>>> 1cc5477 (commit01)

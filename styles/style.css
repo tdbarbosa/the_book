@@ -1,0 +1,230 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  font-family: worksans;
+
+  background-color: white;
+
+  background-color: white;
+
+  background-color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+  padding: 0 112px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo img {
+  width: 38px;
+  height: 47.5px;
+  margin-right: 14px;
+}
+
+#logo h1 {
+  color: var(--primary-color);
+
+  font-family: worksansbold;
+  font-size: 30px;
+}
+
+#logo span {
+  font-family: worksansbolditalic;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 25px;
+
+  font-family: worksans;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+a {
+  color: var(--text-neutral);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  transition: 0.3s all;
+}
+
+#contact-us-btn {
+  color: var(--secondary-color);
+}
+
+main {
+  margin: 0;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#home-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 112px;
+
+  height: 646px;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.9) 16.58%,
+      rgba(255, 255, 255, 0) 72.38%
+    ),
+    url("../components/images/Hero.png");
+}
+
+#home-main h1 {
+  font-family: worksanssemibold;
+  font-size: 72px;
+  line-height: 1px;
+}
+
+#feature-projects {
+  width: 416px;
+  height: 190px;
+  align-self: flex-end;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: worksans;
+  text-align: center;
+
+  color: white;
+  background: var(--features-card-color);
+}
+
+#feature-projects span {
+  margin-top: 20px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+#feature-projects p {
+  margin: 0 26px;
+
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+#feature-projects-btn {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: worksans;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#feature-projects-btn button {
+  width: 50%;
+
+  padding: 9px;
+
+  color: white;
+  background-color: black;
+
+  border: none;
+}
+
+#feature-projects-btn button:hover {
+  cursor: pointer;
+
+  transition: 0.3s all;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+#feature-projects-btn button:last-child {
+  border-left: 1px solid white;
+}
+
+#feature-projects-btn i {
+  margin: 0 10px;
+}
+
+#home-reputation {
+  height: 433px;
+  text-align: center;
+}
+
+#home-reputation h4 {
+  font-family: worksansbold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#home-reputation-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 0 112px;
+}
+
+#home-reputation-cards article {
+  width: 292px;
+
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 18px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+#home-reputation-cards i {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 16px;
+
+  font-weight: 700;
+  font-size: 40px;
+
+  color: var(--secondary-color);
+}
+
+#home-reputation-cards span {
+  font-family: worksans;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: var(--text-neutral-70);
+}
+
+#home-reputation-cards p {
+  margin-bottom: 40px;
+
+  font-family: worksans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: var(--text-neutral-400);
+}
